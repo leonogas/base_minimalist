@@ -4,7 +4,7 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import { ThemeProvider } from 'next-themes'
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: any) {
 
   return (<>
     <ThemeProvider attribute="class" >
